@@ -1,22 +1,22 @@
 # Insight UI
 
-A Litecoin blockchain explorer web application service for [Litecore Node](https://github.com/litecoin-project/litecore-node) using the [Insight API](https://github.com/litecoin-project/insight-lite-api).
+A Tealcoin blockchain explorer web application service for [Bitcore Node](https://github.com/tealcoin-project/litecore-tealcoin-node) using the [Insight API](https://github.com/tealcoin-project/insight-tealcoin-api).
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Litecore](https://github.com/litecoin-project/litecore).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Bitcore](https://github.com/tealcoin-project/litecore).
 
 ## Getting Started
 
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g litecore-node
-litecore-node create mynode
+npm install -g litecore-tealcoin-node
+litecore-tealcoin-node create mynode
 cd mynode
-litecore-node install insight-lite-api
-litecore-node install insight-lite-ui
-litecore-node start
+litecore-tealcoin-node install insight-tealcoin-api
+litecore-tealcoin-node install insight-tealcoin-ui
+litecore-tealcoin-node start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/litecoin-project/insight-lite-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/litecoin-project/insight-lite-api).
+For more details about the [Insight API](https://github.com/tealcoin-project/insight-tealcoin-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/tealcoin-project/insight-tealcoin-api).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/litecoin-project/insight-lite-ui).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/tealcoin-project/insight-tealcoin-ui).
 
 
 ## License

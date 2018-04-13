@@ -23,6 +23,7 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
 
       var notAddr = false;
       // non standard input
+
       if (items[i].scriptSig && !items[i].addr) {
         items[i].addr = 'Unparsed address [' + u++ + ']';
         items[i].notAddr = true;

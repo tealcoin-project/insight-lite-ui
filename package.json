@@ -1,8 +1,11 @@
 {
-  "name": "insight-lite-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the litecoin network and build your own services with it.",
+  "name": "insight-tealcoin-ui",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the tealcoin network and build your own services with it.",
   "version": "0.4.6",
-  "repository": "git://github.com/litecoin-project/insight-lite-ui.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tealcoin-project/insight-tealcoin-ui.git"
+  },
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -26,19 +29,19 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight-ui/issues"
+    "url": "https://github.com/litecoin-project/insight-lite-ui/issues"
   },
-  "homepage": "https://github.com/litecoin-project/insight-lite-ui",
+  "homepage": "https://github.com/tealcoin-project/insight-tealcoin-ui",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "litecoin",
+    "tealcoin",
     "litecore",
     "front-end"
   ],
-  "bitcoreNode": "litecore-node",
+  "bitcoreNode": "litecore-tealcoin-node",
   "dependencies": {},
   "devDependencies": {
     "bower": "~1.2.8",
@@ -52,5 +55,21 @@
     "grunt-css": "~0.5.4",
     "grunt-markdown": "~0.5.0",
     "grunt-angular-gettext": "^0.2.15"
-  }
+  },
+  "maintainers": [
+    {
+      "name": "coblee",
+      "email": "coblee@tealcoin.org"
+    },
+    {
+      "name": "losh11",
+      "email": "loshan1212@gmail.com"
+    },
+    {
+      "name": "qxchan",
+      "email": "tealcoin.project@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/insight-tealcoin-ui/-/insight-tealcoin-ui-0.4.6.tgz",
 }

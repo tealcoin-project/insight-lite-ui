@@ -5,7 +5,7 @@ angular.module('insight').config(function($routeProvider) {
   $routeProvider.
     when('/block/:blockHash', {
       templateUrl: 'views/block.html',
-      title: 'Litecoin Block '
+      title: 'Tealcoin Block '
     }).
     when('/block-index/:blockHeight', {
       controller: 'BlocksController',
@@ -17,27 +17,27 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/tx/:txId/:v_type?/:v_index?', {
       templateUrl: 'views/transaction.html',
-      title: 'Litecoin Transaction '
+      title: 'Tealcoin Transaction '
     }).
     when('/', {
       templateUrl: 'views/index.html',
-      title: 'Home'
+      title: 'Tealcoin Home'
     }).
     when('/blocks', {
       templateUrl: 'views/block_list.html',
-      title: 'Litecoin Blocks solved Today'
+      title: 'Tealcoin Blocks solved Today'
     }).
     when('/blocks-date/:blockDate/:startTimestamp?', {
       templateUrl: 'views/block_list.html',
-      title: 'Litecoin Blocks solved '
+      title: 'Tealcoin Blocks solved '
     }).
     when('/address/:addrStr', {
       templateUrl: 'views/address.html',
-      title: 'Litecoin Address '
+      title: 'Tealcoin Address '
     }).
     when('/status', {
       templateUrl: 'views/status.html',
-      title: 'Status'
+      title: 'Tealcoin Status'
     }).
     when('/messages/verify', {
       templateUrl: 'views/messages_verify.html',
@@ -45,7 +45,7 @@ angular.module('insight').config(function($routeProvider) {
     })
     .otherwise({
       templateUrl: 'views/404.html',
-      title: 'Error'
+      title: 'Tealcoin Error'
     });
 });
 
