@@ -4,7 +4,7 @@ A Tealcoin blockchain explorer web application service for [Bitcore Node](https:
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Bitcore](https://github.com/tealcoin-project/litecore-tealcoin).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Litecoin-tealcoin](https://github.com/tealcoin-project/litecore-tealcoin).
 
 ## Getting Started
 
